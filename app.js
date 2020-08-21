@@ -123,3 +123,34 @@ jimHaff.pop();
 jimHaff.push(2,3,5);
 jimHaff.splice(2,1);
 
+logit("no requested output for part 6");
+
+
+
+// YELL AT THE NINJA TURTLES
+const turtles = ["Leonardo", "Donatello", "Raphael", "Michaelangelo"]
+for(let i = 0; i<turtles.length; i++){
+    turtles[i] = turtles[i].toUpperCase();
+}
+//part 7
+logit(turtles);
+
+//turtle bonus
+for(let i = 0; i<turtles.length; i++){
+    turtarray = turtles[i].split("");
+    for(let j = 0; j<turtarray.length;j++){
+        if(j%2===0){
+            turtarray[j] = turtarray[j].toLowerCase();
+        }
+    }
+    turtles[i] = turtarray.join("");
+}
+logit(turtles);
+
+
+
+
+
+
+
+
