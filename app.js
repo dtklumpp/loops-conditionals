@@ -195,3 +195,23 @@ logit("Thom is wearing "+thomsCloset[0][1]+", "+thomsCloset[1][2]+", and "+thoms
 
 
 
+//part 8 DIRTY LAUNDRY INVENTORY
+
+for(let i = 0; i<kristynsCloset.length; i++){
+    logit("WHIRR: Now washing "+kristynsCloset[i]);
+}
+for(let i = 0; i<thomsCloset.length; i++){
+    logit(thomsCloset[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
