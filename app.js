@@ -208,10 +208,22 @@ for(let i = 0; i<thomsCloset.length; i++){
 
 
 
+//part 9 MULTIPLES OF 3 AND 5
 
+sumArray = [];
+for(let i = 1; i < 1000; i++){
+    if(i%5===0){
+        sumArray.push(i);
+    }
+    else if(i%3===0){
+        sumArray.push(i);
+    }
+}
+let sumVar = 0;
+for(let i = 0; i < sumArray.length; i++){
+    sumVar += sumArray[i];
+}
+logit("problem 9 solution");
+logit(sumVar);
 
-
-
-
-
-
+//logit(sumArray);
