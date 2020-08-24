@@ -2,6 +2,8 @@ console.log('hello milo');
 // const catName = prompt("Enter cat name");
 // alert("Hello "+catName+"!");
 
+//note: to keep everything compact in the console, i display
+//the output in arrays, not with many individual console.logs
 const displayArray = [];
 
 const logit = function(input1){
@@ -227,3 +229,31 @@ logit("problem 9 solution");
 logit(sumVar);
 
 //logit(sumArray);
+
+
+
+
+
+
+
+
+
+//note: 11pm Sun -- see bottom note in function HW on Hungry probs
+
+//Triangles: basically the same as the chessboard problem
+//but without as tricky logic, really
+//straightforward double loop?
+
+//Median: gonna sort and take the Math.floor(length/2) element
+//ok actually i'll write this one just so i'm not 100% lazy...
+
+const nums = [14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18,12, 17, 12, 71, 18, 15, 12];
+
+logit("Median Output");
+const findMedian = function(array1) {
+    array1.sort();
+    output1 = array1[Math.floor(array1.length/2)];
+    return output1;
+}
+logit(findMedian(nums));
+//logit(nums.sort());
