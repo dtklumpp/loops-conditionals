@@ -122,9 +122,10 @@ ryan[2] = "Gotham City";
 reuben.pop();
 reuben.push("Chicago");
 jimHaff.pop();
-jimHaff.push(2,3,5);
+jimHaff.push('Milwaukee', 'Seattle', 'New Orleans');
 jimHaff.splice(2,1);
 
+//logit(jimHaff);
 logit("no requested output for part 6");
 
 
